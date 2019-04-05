@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Baratheon : Faction
 {
-    protected override FactionHouse getFaction()
+    protected override FactionHouse type
     {
-        return FactionHouse.Baratheon;
+        get
+        {
+            return FactionHouse.Baratheon;
+        }
     }
 
     // Use this for initialization

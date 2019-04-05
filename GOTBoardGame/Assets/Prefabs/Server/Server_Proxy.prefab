@@ -433,22 +433,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 98
-    i1: 224
-    i2: 58
-    i3: 245
-    i4: 48
-    i5: 163
-    i6: 117
-    i7: 244
-    i8: 120
-    i9: 253
-    i10: 6
-    i11: 204
-    i12: 107
-    i13: 30
-    i14: 123
-    i15: 221
+    i0: 52
+    i1: 6
+    i2: 25
+    i3: 62
+    i4: 175
+    i5: 217
+    i6: 225
+    i7: 52
+    i8: 217
+    i9: 212
+    i10: 174
+    i11: 73
+    i12: 89
+    i13: 138
+    i14: 61
+    i15: 241
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!114 &114254368757440024
@@ -938,14 +938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a29091a8bff884c4583dd7e0440399a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cl_SentMovements: {fileID: 114358640435362218}
-  cl_ReceivedMovements: {fileID: 114081264877347610}
-  cl_CorrectMovements: {fileID: 114616364901407444}
-  sv_SentMovements: {fileID: 114437271739284696}
-  sv_ReceivedMovements: {fileID: 114702285603427002}
-  sv_CorrectMovements: {fileID: 114590100913601200}
-  latencyButtonText: {fileID: 114254368757440024}
-  latencySlider: {fileID: 114801004746711566}
 --- !u!222 &222053753407389504
 CanvasRenderer:
   m_ObjectHideFlags: 1

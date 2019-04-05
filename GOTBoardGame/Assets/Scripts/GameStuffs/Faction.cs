@@ -27,17 +27,18 @@ public abstract class Faction : MonoBehaviour {
         get { return _supplyBarrels; }
         private set { _supplyBarrels = value; }
     }
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-
-    protected abstract FactionHouse getFaction();
-    public int getAvailableMaxSupply()
+    public int availableMaxSupply
     {
-        return -1;
+        get { return -1; }
     }
+
+    [SerializeField] private int garrisonStrength = 2;
+    [SerializeField] private Area garrisonArea;
+
+    protected abstract FactionHouse type {
+        get;
+    }
+
     public void usePowerTokens(int count)
     {
         powerTokens -= count;

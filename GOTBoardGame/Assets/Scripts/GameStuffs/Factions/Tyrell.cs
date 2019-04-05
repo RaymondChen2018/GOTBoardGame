@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Tyrell : Faction
 {
-    protected override FactionHouse getFaction()
+    protected override FactionHouse type
     {
-        return FactionHouse.Tyrell;
+        get
+        {
+            return FactionHouse.Tyrell;
+        }
     }
 
     // Use this for initialization

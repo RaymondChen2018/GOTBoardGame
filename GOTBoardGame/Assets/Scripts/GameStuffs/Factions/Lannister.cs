@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Lannister : Faction
 {
-    protected override FactionHouse getFaction()
+    protected override FactionHouse type
     {
-        return FactionHouse.Lannister;
+        get
+        {
+            return FactionHouse.Lannister;
+        }
     }
 
     // Use this for initialization

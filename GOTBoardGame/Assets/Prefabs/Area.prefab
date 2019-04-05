@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114439634728578674}
   - component: {fileID: 212469377120406412}
   m_Layer: 0
-  m_Name: District
+  m_Name: Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,6 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dc3325b2dea7e44385c4a40b73ac43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  neighboors: []
+  areaType: 0
+  MusterLevel: 0
+  icons: 
 --- !u!212 &212469377120406412
 SpriteRenderer:
   m_ObjectHideFlags: 1

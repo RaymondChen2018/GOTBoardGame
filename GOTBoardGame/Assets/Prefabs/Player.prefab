@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114409638595277044}
   - component: {fileID: 212582422595602020}
   m_Layer: 8
-  m_Name: GP_Networked
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
